@@ -43,7 +43,7 @@ int main(int argc, char const *argv[])
         if (fgets(buff, 1024, stdin) != NULL)
         {
             // fputs(msg, stdout);
-            //printf("%s",buff);
+            //printf("%s",buff);    
             int len = strlen(buff);
 
             if (len <= 1)
